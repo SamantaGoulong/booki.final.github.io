@@ -164,7 +164,6 @@ input {
 
 .info-text {
     display: inline;
-
 }
 
 /***** fin setion 1  *****/
@@ -223,10 +222,8 @@ input {
 .hebergements {
     width: 65%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
-
 }
 
 .carte-hebergements {
@@ -335,8 +332,9 @@ input {
 /****** activitées ******/
 .titre-activites {
     margin-top: 70px;
-    margin-left: 15px;
     margin-bottom: 25px;
+    width: 100%;
+  justify-content: flex-start;
 }
 
 .carte-activites {
@@ -354,12 +352,14 @@ input {
 .soustitre-activites {
     margin-left: 15px;
     margin-bottom: 15px;
+    margin-top: 10px;
     font-size: small;
 }
 
-.contenu-carte-activites {
+.activites {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0;
     justify-content: space-around;
 }
 
@@ -391,12 +391,10 @@ footer {
     justify-content: space-between;
 }
 
-
 .contenu-footer {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-left: 10px;
+    width: 100%; 
 }
 
 .lien-footer {
@@ -582,13 +580,13 @@ footer {
         width: 50%;
     }
 
-        .sous-nav p {
-            margin-top: 0px;
-        }
+    .sous-nav p {
+        margin-top: 0px;
+    }
 
-        .sous-nav h1{
-            margin-bottom: 15px;
-        }
+    .sous-nav h1{
+        margin-bottom: 15px;
+    }
 
     /***** fin header *****/
 
@@ -609,7 +607,6 @@ footer {
     .barSearch {
         width: 100%;
         justify-content: center;
-
     }
 
     #search {
@@ -758,8 +755,9 @@ footer {
 
 
     /***** activités *****/
-    .contenu-carte-activites {
+    .activites {
         flex-direction: column;
+        width: 95%;
     }
 
     .lien-cards-activites {

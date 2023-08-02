@@ -790,5 +790,26 @@ footer {
     }
 
     /***** fin footer *****/
+*
+        {-moz-osx-font-smoothing: none;
+        -webkit-font-smoothing: none;
+        -webkit-animation-name: none;
+        -webkit-animation-delay: none;
+-webkit-animation-direction: none;
+-webkit-animation-duration: none;
+-webkit-animation-iteration-count: none;
+-webkit-animation-timing-function: none;
+-webkit-animation-name: none;
+-webkit-animation-delay: none;
+-webkit-animation-direction: none;
+-webkit-animation-duration: none;
+-webkit-animation-iteration-count: none;
+-webkit-animation-timing-function: none;
+
+
+     }
+
+
+
 
 }
